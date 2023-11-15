@@ -26,6 +26,9 @@ jobs:
         npm install
         npx react-native info
 
+    - name: Log in to EAS
+      run: eas login -u ${{ secrets.EAS_USERNAME }} -p ${{ secrets.EAS_PASSWORD }}
+
     - name: Build and test
       run: eas build --platform android
 
