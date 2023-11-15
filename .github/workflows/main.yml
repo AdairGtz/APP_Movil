@@ -18,17 +18,16 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Install Expo CLI
-      run: npm install -g expo-cli
+    - name: Install EAS CLI
+      run: npm install -g eas-cli
 
     - name: Install dependencies
       run: |
         npm install
-        expo --version
         npx react-native info
 
     - name: Build and test
-      run: expo build:android
+      run: eas build --platform android
 
     - name: Run tests
       run: npm test
