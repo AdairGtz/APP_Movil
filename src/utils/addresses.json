@@ -1,0 +1,23 @@
+[
+        {
+                "id": 1,
+                "user": "Juan",
+                "address": "Calle 1 # 1 - 1",
+                "phone": "3000000000",
+                "cp": 43050
+        },
+        {
+                "id": 2,
+                "user": "Pedro",
+                "address": "Calle 2 # 2 - 2",
+                "phone": "3000000000",
+                "cp": 43050
+        },
+        {
+                "id": 3,
+                "user": "Maria",
+                "address": "Calle 3 # 3 - 3",
+                "phone": "3000000000",
+                "cp": 43050
+        }
+]

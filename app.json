@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ecommerce-xochicalli",
+    "slug": "ecommerce-xochicalli",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LOGO-Xochicalli.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.ecommercexochicalli"
+    },
+    "web": {
+      "favicon": "./assets/LOGO-Xochicalli.png"
+    },
+    "scheme": "ecommerce-xochicalli",
+    "extra": {
+      "eas": {
+        "projectId": "a8ccabaa-2138-47f7-8c3d-2ed1d2ae08f9"
+      }
+    }
+  }
+}
